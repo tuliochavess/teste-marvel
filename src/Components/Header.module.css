@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  height: 114px;
+  box-shadow: -2px 3px 6px 0px #FF0000;
+}
+
+.header .logo {
+  max-height: 54px;
+  max-width: 122px;
+  margin-top: 35px;
+  margin-left: 55px;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header li {
+    font-family: var(--type-second);
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.header .personagens {
+    margin-top: 52px;
+    margin-left: 345px;
+}
+
+.header .filmes {
+    margin-top: 52px;
+    margin-left: 86px;
+}
+
+.header .hqs {
+    margin-top: 52px;
+    margin-left: 86px;
+}
+
+.header .profile {
+    margin-top: 40px;
+    margin-left: 86px;   
+}
+
+.header .sair {
+    margin-top: 59px;
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: lighter;
+}

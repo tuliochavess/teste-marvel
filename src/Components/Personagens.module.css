@@ -1,0 +1,110 @@
+.personagens {
+    display: flex;
+}
+
+.personagens .mainBox1,
+.personagens .mainBox2 {
+  width: 289px;
+  height: 439px;
+  margin-top: 139px;
+  margin-left: 147px;
+  background: url("../Assets/Personagens/wanda.svg");
+}
+
+.personagens .mainBox2 {
+    margin-left: 103px;
+    background: url("../Assets/Personagens/thanos.svg");
+}
+
+.personagens .backgroundMainImg {
+  width: 289px;
+  height: 234px;
+  background: url("../Assets/Personagens/backgroundMainImg.svg");
+  position: absolute;
+  margin-top: 205px;
+  display: grid;
+}
+
+.personagens .dontShownOnScreen {
+  display: none;
+}
+
+.personagens .mainBox1Details {
+  width: 659px;
+  height: 439px;
+  margin-top: 139px;
+  margin-left: 147px;
+  background: url("../Assets/Personagens/Wanda-detalhes.svg");
+}
+
+.personagens .backgroundMainImg h2,
+.personagens .mainBox1Details h2,
+.personagens .mainBox1Details h3,
+.personagens .mainBox1Details .aparicoes,
+.personagens .backgroundMainImg span,
+.personagens .backgroundMainImg p,
+.personagens .mainBox1Details p {
+  font-family: var(--type-second);
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  justify-self: center;
+  margin-top: 28px;
+}
+
+.personagens .backgroundMainImg p {
+  font-size: 12px;
+  font-weight: lighter;
+  width: 243px;
+  justify-self: center;
+  margin-top: 0px;
+}
+
+.personagens .backgroundMainImg span {
+  font-weight: lighter;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.personagens .mainBox1Details .details {
+  position: absolute;
+}
+
+.personagens .mainBox1Details h2 {
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 70px;
+  margin-left: 327px;
+}
+
+.personagens .mainBox1Details .aparicoes {
+  margin-left: 330px;
+  margin-top: 20px;
+}
+
+.personagens .mainBox1Details p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: lighter;
+  margin-left: 330px;
+  margin-top: 2px;
+}
+
+.personagens .mainBox1Details h3 {
+  font-size: 26px;
+  line-height: 26px;
+  margin-left: 327px;
+}
+
+.personagens .mainBox1Details .stars {
+  margin-left: 329px;
+  margin-top: 13px;
+}
+
+.personagens .mainBox1Details .close {
+  display: block;
+  margin-left: 597px;
+  margin-top: 30px;
+  cursor: pointer;
+}

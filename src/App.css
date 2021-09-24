@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/axiforma");
+
+body {
+  margin: 0px;
+  --type-first: "Marvel", sans-serif;
+  --type-second: "Axiforma", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  background: #000000;
+}
+
+.App {
+  width: 1366px;
+  height: 768px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
