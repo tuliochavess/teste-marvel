@@ -5,11 +5,13 @@ import Home from "./Components/Home";
 import Personagens from "./Components/Personagens";
 import Filmes from "./Components/Filmes";
 import HQs from "./Components/HQs";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/personagens" element={<Personagens />} />

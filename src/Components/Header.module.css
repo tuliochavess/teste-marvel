@@ -21,6 +21,11 @@
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
+    color: #404040;
+}
+
+.header .ativo {
+  color: #fff;
 }
 
 .header .personagens {

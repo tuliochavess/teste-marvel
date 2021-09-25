@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 import styles from "./HQs.module.css";
 import stars4 from "../Assets/Personagens/stars4.svg";
 import close from "../Assets/Personagens/close.svg";
@@ -8,10 +7,8 @@ import amazon from "../Assets/Hqs/amazon.svg"
 
 const HQs = () => {
   let [show, setShow] = React.useState("main");
-  console.log(show);
   return (
     <>
-      <Header />
       <section className={styles.hqs}>
         {/* -------------------------------------- Início box principal 1 -------------------------------------- */}
         <div

@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 import styles from "./Personagens.module.css";
 import stars4 from "../Assets/Personagens/stars4.svg";
 import stars5 from "../Assets/Personagens/stars5.svg";
@@ -7,10 +6,8 @@ import close from "../Assets/Personagens/close.svg";
 
 const Personagens = () => {
   let [show, setShow] = React.useState("main");
-  console.log(show);
   return (
     <>
-      <Header />
       <section className={styles.personagens}>
         {/* -------------------------------------- Início box principal 1 -------------------------------------- */}
         <div

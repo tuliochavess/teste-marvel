@@ -1,17 +1,22 @@
 import React from "react";
-import Header from "./Header";
 import styles from "./Filmes.module.css";
 import stars4 from "../Assets/Personagens/stars4.svg";
-import stars5 from "../Assets/Personagens/stars5.svg";
+import stars3 from "../Assets/Personagens/stars3.svg";
 import close from "../Assets/Personagens/close.svg";
+import disney from "../Assets/filmes/disney.svg";
 
 const Filmes = () => {
   let [show, setShow] = React.useState("main");
-  console.log(show);
   return (
     <>
-      <Header />
       <section className={styles.filmes}>
+
+        <select id="lancamento" name="lancamento" form="lancamento">
+          <option value="filtrar">Filtrar por</option>
+          <option value="lancamento">Lançamento</option>
+          <option value="cronologia">Cronologia</option>
+        </select>
+
         {/* -------------------------------------- Início box principal 1 -------------------------------------- */}
         <div
           className={`${styles.mainBox1} ${
@@ -45,14 +50,15 @@ const Filmes = () => {
           }`}
         >
           <div className={styles.details}>
-            <h2>america Maximoff</h2>
-            <p className={styles.aparicoes}>Aparições:</p>
-            <p>Vingadores - Era de Ultron</p>
-            <p>Capitão América - Guerra Civi</p>
-            <p>Vingadores - Guerra Infinita</p>
-            <p>Vingadores - Ultimato</p>
-            <p>americaVision</p>
-            <h3>Avaliações dos Fãs</h3>
+            <h2>Capitão América: Primeiro Vingador</h2>
+            <p className={styles.text}>
+              Em Capitão América: O Primeiro Vingador, conhecemos a história de
+              Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado
+              do mundo.
+            </p>
+            <h3>Disponível em streaming:</h3>
+            <img src={disney} alt="Americanas" className={styles.disney} />
+            <h4>Critica</h4>
             <img
               src={stars4}
               alt="Estrelas Avaliação"
@@ -103,15 +109,17 @@ const Filmes = () => {
           }`}
         >
           <div className={styles.details}>
-            <h2>marvel</h2>
-            <p className={styles.aparicoes}>Aparições:</p>
-            <p>Vingadores</p>
-            <p>Guardiões da Galáxia - vol. I</p>
-            <p>Vingadores - Guerra Infinita</p>
-            <p>Vingadores - Ultimato</p>
-            <h3>Avaliações dos Fãs</h3>
+            <h2>Capitã Marvel</h2>
+            <p className={styles.text}>
+              Em Capitão América: O Primeiro Vingador, conhecemos a história de
+              Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado
+              do mundo.
+            </p>
+            <h3>Disponível em streaming:</h3>
+            <img src={disney} alt="Americanas" className={styles.disney} />
+            <h4>Critica</h4>
             <img
-              src={stars5}
+              src={stars4}
               alt="Estrelas Avaliação"
               className={styles.stars}
             />
@@ -159,16 +167,18 @@ const Filmes = () => {
           }`}
         >
           <div className={styles.details}>
-            <h2>iron</h2>
-            <p className={styles.aparicoes}>Aparições:</p>
-            <p>Vingadores</p>
-            <p>Vingadores - Era de Ultron</p>
-            <p>Thor - Ragnarok</p>
-            <p>Vingadores - Guerra Infinita</p>
-            <p>Vingadores - Ultimato</p>
-            <h3>Avaliações dos Fãs</h3>
+            <h2>Homem de Ferro</h2>
+            <p className={styles.text}>
+              Tony Stark (Robert Downey Jr.) é um industrial bilionário, que
+              também é um brilhante inventor, ao ser sequestrado, ele é obrigado
+              a construir uma arma devastadora, mas ao invés disso, cria uma
+              armadura capaz de mudar a história.
+            </p>
+            <h3>Disponível em streaming:</h3>
+            <img src={disney} alt="Americanas" className={styles.disney} />
+            <h4>Critica</h4>
             <img
-              src={stars4}
+              src={stars3}
               alt="Estrelas Avaliação"
               className={styles.stars}
             />
