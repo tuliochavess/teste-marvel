@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import styles from "./Personagens.module.css";
-import stars from "../Assets/Personagens/stars.svg";
+import stars4 from "../Assets/Personagens/stars4.svg";
+import stars5 from "../Assets/Personagens/stars5.svg";
 import close from "../Assets/Personagens/close.svg";
 
 const Personagens = () => {
@@ -17,7 +18,7 @@ const Personagens = () => {
             show === "wanda" || show === "thanos"
               ? styles.dontShownOnScreen
               : ""
-          }`}
+          } ${show === "hulk" ? styles.opacity : ""}`}
         >
           <div className={styles.backgroundMainImg}>
             <h2>Wanda Maximoff</h2>
@@ -54,7 +55,7 @@ const Personagens = () => {
             <p>WandaVision</p>
             <h3>Avaliações dos Fãs</h3>
             <img
-              src={stars}
+              src={stars4}
               alt="Estrelas Avaliação"
               className={styles.stars}
             />
@@ -110,10 +111,9 @@ const Personagens = () => {
             <p>Guardiões da Galáxia - vol. I</p>
             <p>Vingadores - Guerra Infinita</p>
             <p>Vingadores - Ultimato</p>
-            <p>.</p>
             <h3>Avaliações dos Fãs</h3>
             <img
-              src={stars}
+              src={stars5}
               alt="Estrelas Avaliação"
               className={styles.stars}
             />
@@ -133,7 +133,7 @@ const Personagens = () => {
         <div
           className={`${styles.mainBox3} ${
             show === "hulk" ? styles.dontShownOnScreen : ""
-          }`}
+          } ${show === "wanda" || show === "thanos" ? styles.opacity : ""}`}
         >
           <div className={styles.backgroundMainImg}>
             <h2>Hulk</h2>
@@ -156,7 +156,7 @@ const Personagens = () => {
 
         {/* -------------------------------------- Início box detalhes 3 -------------------------------------- */}
         <div
-          className={`${styles.mainBox2Details} ${
+          className={`${styles.mainBox3Details} ${
             show === "hulk" ? "" : styles.dontShownOnScreen
           }`}
         >
@@ -170,7 +170,7 @@ const Personagens = () => {
             <p>Vingadores - Ultimato</p>
             <h3>Avaliações dos Fãs</h3>
             <img
-              src={stars}
+              src={stars4}
               alt="Estrelas Avaliação"
               className={styles.stars}
             />

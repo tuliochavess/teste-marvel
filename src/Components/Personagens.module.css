@@ -1,5 +1,7 @@
 .personagens {
   display: flex;
+  background: url('../Assets/background.svg') no-repeat right;
+  height: 672px;
 }
 
 .personagens .mainBox1,
@@ -9,23 +11,23 @@
   height: 439px;
   margin-top: 139px;
   margin-left: 147px;
-  background: url("../Assets/Personagens/wanda.svg");
+  background: url("../Assets/Personagens/wanda.svg") no-repeat;
 }
 
 .personagens .mainBox2,
 .personagens .mainBox3 {
   margin-left: 103px;
-  background: url("../Assets/Personagens/thanos.svg");
+  background: url("../Assets/Personagens/thanos.svg") no-repeat;
 }
 
 .personagens .mainBox3 {
-  background: url("../Assets/Personagens/hulk.svg");
+  background: url("../Assets/Personagens/hulk.svg") no-repeat;
 }
 
 .personagens .backgroundMainImg {
   width: 289px;
   height: 234px;
-  background: url("../Assets/Personagens/backgroundMainImg.svg");
+  background: url("../Assets/Personagens/backgroundMainImg.svg") no-repeat;
   position: absolute;
   margin-top: 205px;
   display: grid;
@@ -35,18 +37,29 @@
   display: none;
 }
 
+.personagens .opacity {
+  opacity: 0.2;
+}
+
 .personagens .mainBox1Details,
 .personagens .mainBox2Details,
 .personagens .mainBox3Details {
-  width: 659px;
+  width: 681px;
   height: 439px;
   margin-top: 139px;
   margin-left: 147px;
-  background: url("../Assets/Personagens/Wanda-detalhes.svg");
+  background: url("../Assets/Personagens/wanda-detalhes.svg") no-repeat;
 }
 
 .personagens .mainBox2Details {
-  background: url("../Assets/Personagens/Thanos-detalhes.svg");
+  background: url("../Assets/Personagens/thanos-detalhes.svg") no-repeat;
+  margin-left: 169px;
+  margin-right: -22px;
+}
+
+.personagens .mainBox3Details {
+  background: url("../Assets/Personagens/hulk-detalhes.svg") no-repeat;
+  margin-left: 125px;
 }
 
 .personagens .backgroundMainImg h2,
@@ -140,6 +153,10 @@
   font-size: 26px;
   line-height: 26px;
   margin-left: 327px;
+}
+
+.personagens .mainBox2Details h3 {
+  margin-top: 48px;
 }
 
 .personagens .mainBox2Details h3,

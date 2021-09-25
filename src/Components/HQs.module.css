@@ -1,0 +1,148 @@
+.hqs {
+  display: flex;
+  background: url("../Assets/background.svg") no-repeat right;
+  height: 672px;
+}
+
+.hqs .mainBox1,
+.hqs .mainBox2,
+.hqs .mainBox3 {
+  width: 289px;
+  height: 439px;
+  margin-top: 139px;
+  margin-left: 147px;
+  background: url("../Assets/Hqs/thor.svg") no-repeat;
+}
+
+.hqs .mainBox2,
+.hqs .mainBox3 {
+  margin-left: 103px;
+  background: url("../Assets/Hqs/surfista.svg") no-repeat;
+}
+
+.hqs .mainBox3 {
+  background: url("../Assets/Hqs/origem.svg") no-repeat;
+}
+
+.hqs .backgroundMainImg {
+  width: 289px;
+  height: 234px;
+  background: url("../Assets/Personagens/backgroundMainImg.svg") no-repeat;
+  position: absolute;
+  margin-top: 205px;
+  display: grid;
+}
+
+.hqs .dontShownOnScreen {
+  display: none;
+}
+
+.hqs .opacity {
+  opacity: 0.2;
+}
+
+.hqs .mainBox1Details {
+  width: 681px;
+  height: 439px;
+  margin-top: 139px;
+  margin-left: 147px;
+  background: url("../Assets/Hqs/thor-detalhes.svg") no-repeat;
+}
+
+.hqs .backgroundMainImg h2,
+.hqs .mainBox1Details h2,
+.hqs .mainBox1Details h3,
+.hqs .mainBox1Details h4,
+.hqs .mainBox1Details .aparicoes,
+.hqs .backgroundMainImg span,
+.hqs .backgroundMainImg p,
+.hqs .mainBox1Details p {
+  font-family: var(--type-second);
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  justify-self: center;
+  margin-top: 28px;
+}
+
+.hqs .mainBox1Details .text {
+  margin-top: 20px;
+  width: 275px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.hqs .mainBox2 .backgroundMainImg h2 {
+  margin-top: 12px;
+  width: 186px;
+  text-align: center;
+}
+
+.hqs .backgroundMainImg p {
+  font-size: 12px;
+  font-weight: lighter;
+  width: 243px;
+  justify-self: center;
+  margin-top: 0px;
+}
+
+.hqs .backgroundMainImg span {
+  font-weight: lighter;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.hqs .mainBox1Details .details{
+  position: absolute;
+}
+
+.hqs .mainBox1Details h2 {
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 327px;
+}
+
+.hqs .mainBox1Details .aparicoes {
+  margin-top: 20px;
+  margin-left: 330px;
+}
+
+.hqs .mainBox1Details p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: lighter;
+  margin-left: 330px;
+  margin-top: 2px;
+}
+
+.hqs .mainBox1Details h3 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-left: 327px;
+}
+
+.hqs .mainBox1Details h4 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 327px;
+} 
+
+.hqs .mainBox1Details .americanas {
+  margin-left: 320px;
+}
+
+.hqs .mainBox1Details .stars {
+  display: block;
+  margin-top: 13px;
+  margin-left: 329px;
+}
+
+.hqs .mainBox1Details .close {
+  display: block;
+  margin-left: 597px;
+  margin-top: 0px;
+  cursor: pointer;
+}

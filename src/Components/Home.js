@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import logo from "../Assets/logo.svg";
-import background from "../Assets/background.svg";
 
 const Home = () => {
   return (
@@ -30,9 +29,6 @@ const Home = () => {
               <p>Cadastre-se</p>
             </a>
           </div>
-        </div>
-        <div className={styles.background}>
-          <img src={background} alt="logo marvel" />
         </div>
       </section>
     </>

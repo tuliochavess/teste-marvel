@@ -1,0 +1,187 @@
+.filmes {
+    display: flex;
+    background: url('../Assets/background.svg') no-repeat right;
+    height: 672px;
+  }
+  
+  .filmes .mainBox1,
+  .filmes .mainBox2,
+  .filmes .mainBox3 {
+    width: 289px;
+    height: 439px;
+    margin-top: 139px;
+    margin-left: 147px;
+    background: url("../Assets/filmes/america.svg") no-repeat;
+  }
+  
+  .filmes .mainBox2,
+  .filmes .mainBox3 {
+    margin-left: 103px;
+    background: url("../Assets/filmes/marvel.svg") no-repeat;
+  }
+  
+  .filmes .mainBox3 {
+    background: url("../Assets/filmes/iron.svg") no-repeat;
+  }
+  
+  .filmes .backgroundMainImg {
+    width: 289px;
+    height: 234px;
+    background: url("../Assets/Personagens/backgroundMainImg.svg") no-repeat;
+    position: absolute;
+    margin-top: 205px;
+    display: grid;
+  }
+  
+  .filmes .dontShownOnScreen {
+    display: none;
+  }
+  
+  .filmes .opacity {
+    opacity: 0.2;
+  }
+  
+  .filmes .mainBox1Details,
+  .filmes .mainBox2Details,
+  .filmes .mainBox3Details {
+    width: 681px;
+    height: 439px;
+    margin-top: 139px;
+    margin-left: 147px;
+    background: url("../Assets/Personagens/wanda-detalhes.svg") no-repeat;
+  }
+  
+  .filmes .mainBox2Details {
+    background: url("../Assets/Personagens/thanos-detalhes.svg") no-repeat;
+    margin-left: 169px;
+    margin-right: -22px;
+  }
+  
+  .filmes .mainBox3Details {
+    background: url("../Assets/Personagens/hulk-detalhes.svg") no-repeat;
+    margin-left: 125px;
+  }
+  
+  .filmes .backgroundMainImg h2,
+  .filmes .mainBox1Details h2,
+  .filmes .mainBox2Details h2,
+  .filmes .mainBox3Details h2,
+  .filmes .mainBox1Details h3,
+  .filmes .mainBox2Details h3,
+  .filmes .mainBox3Details h3,
+  .filmes .mainBox1Details .aparicoes,
+  .filmes .mainBox2Details .aparicoes,
+  .filmes .mainBox3Details .aparicoes,
+  .filmes .backgroundMainImg span,
+  .filmes .backgroundMainImg p,
+  .filmes .mainBox1Details p,
+  .filmes .mainBox2Details p,
+  .filmes .mainBox3Details p {
+    font-family: var(--type-second);
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    justify-self: center;
+    margin-top: 28px;
+  }
+  
+  .filmes .backgroundMainImg p {
+    font-size: 12px;
+    font-weight: lighter;
+    width: 243px;
+    justify-self: center;
+    margin-top: 0px;
+  }
+  
+  .filmes .backgroundMainImg span {
+    font-weight: lighter;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .filmes .mainBox1Details .details,
+  .filmes .mainBox2Details .details,
+  .filmes .mainBox3Details .details {
+    position: absolute;
+  }
+  
+  .filmes .mainBox1Details h2,
+  .filmes .mainBox2Details h2,
+  .filmes .mainBox3Details h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 70px;
+    margin-left: 327px;
+  }
+  
+  .filmes .mainBox2Details h2,
+  .filmes .mainBox3Details h2 {
+    margin-left: 48px;
+  }
+  
+  .filmes .mainBox1Details .aparicoes,
+  .filmes .mainBox2Details .aparicoes,
+  .filmes .mainBox3Details .aparicoes {
+    margin-top: 20px;
+    margin-left: 330px;
+  }
+  
+  .filmes .mainBox2Details .aparicoes,
+  .filmes .mainBox3Details .aparicoes {
+    margin-left: 47px;
+  }
+  
+  .filmes .mainBox1Details p,
+  .filmes .mainBox2Details p,
+  .filmes .mainBox3Details p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: lighter;
+    margin-left: 330px;
+    margin-top: 2px;
+  }
+  
+  .filmes .mainBox2Details p,
+  .filmes .mainBox3Details p {
+    margin-left: 47px;
+  }
+  
+  .filmes .mainBox1Details h3,
+  .filmes .mainBox2Details h3,
+  .filmes .mainBox3Details h3 {
+    font-size: 26px;
+    line-height: 26px;
+    margin-left: 327px;
+  }
+  
+  .filmes .mainBox2Details h3 {
+    margin-top: 48px;
+  }
+  
+  .filmes .mainBox2Details h3,
+  .filmes .mainBox3Details h3 {
+    margin-left: 48px;
+  }
+  
+  .filmes .mainBox1Details .stars,
+  .filmes .mainBox2Details .stars,
+  .filmes .mainBox3Details .stars {
+    margin-top: 13px;
+    margin-left: 329px;
+  }
+  
+  .filmes .mainBox2Details .stars,
+  .filmes .mainBox3Details .stars {
+    margin-left: 48px;
+  }
+  
+  .filmes .mainBox1Details .close,
+  .filmes .mainBox2Details .close,
+  .filmes .mainBox3Details .close {
+    display: block;
+    margin-left: 597px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  

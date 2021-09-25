@@ -1,5 +1,6 @@
 .home {
   display: flex;
+  background: url('../Assets/background-c.svg') no-repeat;
 }
 
 .home .logo {
@@ -98,13 +99,4 @@
 .home .afterButton a p {
   margin-left: 8px;
   color: #ff0000;
-}
-
-.home .background {
-  position: absolute;
-  right: 0px;
-}
-
-.home .background img {
-  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
