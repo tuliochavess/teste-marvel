@@ -1,9 +1,10 @@
 .personagens {
-    display: flex;
+  display: flex;
 }
 
 .personagens .mainBox1,
-.personagens .mainBox2 {
+.personagens .mainBox2,
+.personagens .mainBox3 {
   width: 289px;
   height: 439px;
   margin-top: 139px;
@@ -11,9 +12,14 @@
   background: url("../Assets/Personagens/wanda.svg");
 }
 
-.personagens .mainBox2 {
-    margin-left: 103px;
-    background: url("../Assets/Personagens/thanos.svg");
+.personagens .mainBox2,
+.personagens .mainBox3 {
+  margin-left: 103px;
+  background: url("../Assets/Personagens/thanos.svg");
+}
+
+.personagens .mainBox3 {
+  background: url("../Assets/Personagens/hulk.svg");
 }
 
 .personagens .backgroundMainImg {
@@ -29,7 +35,9 @@
   display: none;
 }
 
-.personagens .mainBox1Details {
+.personagens .mainBox1Details,
+.personagens .mainBox2Details,
+.personagens .mainBox3Details {
   width: 659px;
   height: 439px;
   margin-top: 139px;
@@ -37,13 +45,25 @@
   background: url("../Assets/Personagens/Wanda-detalhes.svg");
 }
 
+.personagens .mainBox2Details {
+  background: url("../Assets/Personagens/Thanos-detalhes.svg");
+}
+
 .personagens .backgroundMainImg h2,
 .personagens .mainBox1Details h2,
+.personagens .mainBox2Details h2,
+.personagens .mainBox3Details h2,
 .personagens .mainBox1Details h3,
+.personagens .mainBox2Details h3,
+.personagens .mainBox3Details h3,
 .personagens .mainBox1Details .aparicoes,
+.personagens .mainBox2Details .aparicoes,
+.personagens .mainBox3Details .aparicoes,
 .personagens .backgroundMainImg span,
 .personagens .backgroundMainImg p,
-.personagens .mainBox1Details p {
+.personagens .mainBox1Details p,
+.personagens .mainBox2Details p,
+.personagens .mainBox3Details p {
   font-family: var(--type-second);
   color: #fff;
   font-size: 20px;
@@ -67,23 +87,41 @@
   cursor: pointer;
 }
 
-.personagens .mainBox1Details .details {
+.personagens .mainBox1Details .details,
+.personagens .mainBox2Details .details,
+.personagens .mainBox3Details .details {
   position: absolute;
 }
 
-.personagens .mainBox1Details h2 {
+.personagens .mainBox1Details h2,
+.personagens .mainBox2Details h2,
+.personagens .mainBox3Details h2 {
   font-size: 30px;
   line-height: 30px;
   margin-top: 70px;
   margin-left: 327px;
 }
 
-.personagens .mainBox1Details .aparicoes {
-  margin-left: 330px;
-  margin-top: 20px;
+.personagens .mainBox2Details h2,
+.personagens .mainBox3Details h2 {
+  margin-left: 48px;
 }
 
-.personagens .mainBox1Details p {
+.personagens .mainBox1Details .aparicoes,
+.personagens .mainBox2Details .aparicoes,
+.personagens .mainBox3Details .aparicoes {
+  margin-top: 20px;
+  margin-left: 330px;
+}
+
+.personagens .mainBox2Details .aparicoes,
+.personagens .mainBox3Details .aparicoes {
+  margin-left: 47px;
+}
+
+.personagens .mainBox1Details p,
+.personagens .mainBox2Details p,
+.personagens .mainBox3Details p {
   font-size: 18px;
   line-height: 22px;
   font-weight: lighter;
@@ -91,18 +129,39 @@
   margin-top: 2px;
 }
 
-.personagens .mainBox1Details h3 {
+.personagens .mainBox2Details p,
+.personagens .mainBox3Details p {
+  margin-left: 47px;
+}
+
+.personagens .mainBox1Details h3,
+.personagens .mainBox2Details h3,
+.personagens .mainBox3Details h3 {
   font-size: 26px;
   line-height: 26px;
   margin-left: 327px;
 }
 
-.personagens .mainBox1Details .stars {
-  margin-left: 329px;
-  margin-top: 13px;
+.personagens .mainBox2Details h3,
+.personagens .mainBox3Details h3 {
+  margin-left: 48px;
 }
 
-.personagens .mainBox1Details .close {
+.personagens .mainBox1Details .stars,
+.personagens .mainBox2Details .stars,
+.personagens .mainBox3Details .stars {
+  margin-top: 13px;
+  margin-left: 329px;
+}
+
+.personagens .mainBox2Details .stars,
+.personagens .mainBox3Details .stars {
+  margin-left: 48px;
+}
+
+.personagens .mainBox1Details .close,
+.personagens .mainBox2Details .close,
+.personagens .mainBox3Details .close {
   display: block;
   margin-left: 597px;
   margin-top: 30px;
