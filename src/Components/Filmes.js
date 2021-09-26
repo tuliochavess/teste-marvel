@@ -8,22 +8,11 @@ import Header from "./Header";
 
 const Filmes = () => {
   let [show, setShow] = React.useState("main");
-
-  function handleChange(event) {
-    let valor = event.target.value;
-    console.log(valor);
-    return valor;
-  }
   return (
     <>
       <Header />
       <section className={styles.filmes}>
-        <select
-          id="filtrar"
-          name="filtrar"
-          form="filtrar"
-          onChange={handleChange}
-        >
+        <select id="filtrar" name="filtrar" form="filtrar">
           <option value="filtrar">Filtrar por</option>
           <option value="lancamento">Lançamento</option>
           <option value="cronologia">Cronologia</option>
