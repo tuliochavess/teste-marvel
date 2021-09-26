@@ -4,11 +4,13 @@ import stars4 from "../Assets/Personagens/stars4.svg";
 import close from "../Assets/Personagens/close.svg";
 import americanas from "../Assets/Hqs/americanas.svg"
 import amazon from "../Assets/Hqs/amazon.svg"
+import Header from "./Header";
 
 const HQs = () => {
   let [show, setShow] = React.useState("main");
   return (
     <>
+    <Header />
       <section className={styles.hqs}>
         {/* -------------------------------------- Início box principal 1 -------------------------------------- */}
         <div

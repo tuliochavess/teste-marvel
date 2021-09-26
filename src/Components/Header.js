@@ -5,7 +5,7 @@ import logo from "../Assets/logo.svg";
 import profile from "../Assets/profile-picture.svg";
 
 const Header = () => {
-  let [select, setSelect] = React.useState("0");
+  const url = window.location.href;
 
   return (
     <header className={styles.header}>
@@ -14,28 +14,27 @@ const Header = () => {
           <img src={logo} alt="Logo Marvel" className={styles.logo} />
           <Link to="/personagens">
             <li
-              onClick={() => setSelect("1")}
-              className={`${select === "1" ? styles.ativo : ""} ${
-                styles.personagens
-              }`}
+              className={`${
+                url === "http://localhost:3000/personagens" ? styles.ativo : ""
+              } ${styles.personagens}`}
             >
               Personagens
             </li>
           </Link>
           <Link to="/filmes">
             <li
-              onClick={() => setSelect("2")}
-              className={`${select === "2" ? styles.ativo : ""} ${
-                styles.filmes
-              }`}
+              className={`${
+                url === "http://localhost:3000/filmes" ? styles.ativo : ""
+              } ${styles.filmes}`}
             >
               Filmes
             </li>
           </Link>
           <Link to="/hqs">
             <li
-              onClick={() => setSelect("3")}
-              className={`${select === "3" ? styles.ativo : ""} ${styles.hqs}`}
+              className={`${
+                url === "http://localhost:3000/hqs" ? styles.ativo : ""
+              } ${styles.hqs}`}
             >
               HQs
             </li>

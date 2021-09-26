@@ -4,19 +4,30 @@ import stars4 from "../Assets/Personagens/stars4.svg";
 import stars3 from "../Assets/Personagens/stars3.svg";
 import close from "../Assets/Personagens/close.svg";
 import disney from "../Assets/filmes/disney.svg";
+import Header from "./Header";
 
 const Filmes = () => {
   let [show, setShow] = React.useState("main");
+
+  function handleChange(event) {
+    let valor = event.target.value;
+    console.log(valor);
+    return valor;
+  }
   return (
     <>
+      <Header />
       <section className={styles.filmes}>
-
-        <select id="lancamento" name="lancamento" form="lancamento">
+        <select
+          id="lancamento"
+          name="lancamento"
+          form="lancamento"
+          onChange={handleChange}
+        >
           <option value="filtrar">Filtrar por</option>
           <option value="lancamento">Lançamento</option>
           <option value="cronologia">Cronologia</option>
         </select>
-
         {/* -------------------------------------- Início box principal 1 -------------------------------------- */}
         <div
           className={`${styles.mainBox1} ${
