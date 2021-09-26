@@ -1,7 +1,7 @@
 .header {
   display: flex;
   height: 114px;
-  box-shadow: -2px 3px 6px 0px #FF0000;
+  box-shadow: -2px 3px 6px 0px #ff0000;
   z-index: 1000;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .header li {
-    font-family: var(--type-second);
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    color: #404040;
+  font-family: var(--type-second);
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #404040;
 }
 
 .header .ativo {
@@ -29,29 +29,30 @@
 }
 
 .header .personagens {
-    margin-top: 52px;
-    margin-left: 345px;
+  margin-top: 52px;
+  margin-left: 345px;
 }
 
 .header .filmes {
-    margin-top: 52px;
-    margin-left: 86px;
+  margin-top: 52px;
+  margin-left: 86px;
 }
 
 .header .hqs {
-    margin-top: 52px;
-    margin-left: 86px;
+  margin-top: 52px;
+  margin-left: 86px;
 }
 
 .header .profile {
-    margin-top: 40px;
-    margin-left: 86px;   
+  margin-top: 40px;
+  margin-left: 86px;
 }
 
 .header .sair {
-    margin-top: 59px;
-    margin-left: 15px;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: lighter;
+  color: #fff;
+  margin-top: 59px;
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: lighter;
 }

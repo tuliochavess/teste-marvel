@@ -19,9 +19,9 @@ const Filmes = () => {
       <Header />
       <section className={styles.filmes}>
         <select
-          id="lancamento"
-          name="lancamento"
-          form="lancamento"
+          id="filtrar"
+          name="filtrar"
+          form="filtrar"
           onChange={handleChange}
         >
           <option value="filtrar">Filtrar por</option>

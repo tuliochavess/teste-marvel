@@ -1,6 +1,6 @@
 .home {
   display: flex;
-  background: url('../Assets/background-c.svg') no-repeat;
+  background: url("../Assets/background-c.svg") no-repeat;
 }
 
 .home .logo {
@@ -56,7 +56,7 @@
   line-height: 22px;
   position: absolute;
   margin-top: 28px;
-  margin-left: 28px;
+  margin-left: 8px;
 }
 
 .home .beforeButton {
@@ -99,4 +99,21 @@
 .home .afterButton a p {
   margin-left: 8px;
   color: #ff0000;
+}
+
+.home input:focus,
+.home textarea:focus {
+  outline: none;
+}
+
+.home input[type="text"] {
+  font-family: var(--type-second);
+  color: #d1d1d6;
+  font-size: 22px;
+  line-height: 22px;
+  padding-left: 20px;
+}
+
+.home .teste {
+  display: none;
 }
