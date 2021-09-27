@@ -29,7 +29,7 @@ const Personagens = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "wanda"));
+                setShow("wanda");
               }}
             >
               ver detalhes
@@ -63,7 +63,7 @@ const Personagens = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>
@@ -88,7 +88,7 @@ const Personagens = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "thanos"));
+                setShow("thanos");
               }}
             >
               ver detalhes
@@ -121,7 +121,7 @@ const Personagens = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>
@@ -144,7 +144,7 @@ const Personagens = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "hulk"));
+                setShow("hulk");
               }}
             >
               ver detalhes
@@ -178,7 +178,7 @@ const Personagens = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>

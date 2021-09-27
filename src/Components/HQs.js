@@ -29,7 +29,7 @@ const HQs = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "thor"));
+                setShow("thor");
               }}
             >
               ver detalhes
@@ -65,7 +65,7 @@ const HQs = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>

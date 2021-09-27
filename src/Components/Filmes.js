@@ -12,11 +12,6 @@ const Filmes = () => {
     <>
       <Header />
       <section className={styles.filmes}>
-        <select id="filtrar" name="filtrar" form="filtrar">
-          <option value="filtrar">Filtrar por</option>
-          <option value="lancamento">Lançamento</option>
-          <option value="cronologia">Cronologia</option>
-        </select>
         {/* -------------------------------------- Início box principal 1 -------------------------------------- */}
         <div
           className={`${styles.mainBox1} ${
@@ -34,7 +29,7 @@ const Filmes = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "america"));
+                setShow("america");
               }}
             >
               ver detalhes
@@ -69,7 +64,7 @@ const Filmes = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>
@@ -93,7 +88,7 @@ const Filmes = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "marvel"));
+                setShow("marvel");
               }}
             >
               ver detalhes
@@ -128,7 +123,7 @@ const Filmes = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>
@@ -151,7 +146,7 @@ const Filmes = () => {
             </p>
             <span
               onClick={() => {
-                setShow((show = "iron"));
+                setShow("iron");
               }}
             >
               ver detalhes
@@ -187,7 +182,7 @@ const Filmes = () => {
               alt="Ícone fechar Modal"
               className={styles.close}
               onClick={() => {
-                setShow((show = "main"));
+                setShow("main");
               }}
             />
           </div>

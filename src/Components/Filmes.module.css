@@ -4,18 +4,6 @@
   height: 672px;
 }
 
-.filmes select {
-  position: absolute;
-  margin-top: 74px;
-  margin-left: 147px;
-  font-family: var(--type-second);
-  background-color: #000;
-  color: #FF0000;
-  padding: 12px;
-  border: 1px solid #FF0000;
-  border-radius: 8px;
-}
-
 .filmes .mainBox1,
 .filmes .mainBox2,
 .filmes .mainBox3 {
